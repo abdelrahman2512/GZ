@@ -1,21 +1,21 @@
 from os import getenv
 
-API_ID = int(getenv("API_ID", "6435225")) #optional
-API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d") #optional
+API_ID = 28308842
+API_HASH = "f484785c143df7112294a5421afe775f"
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("OWNER_ID", ""))
-MONGO_URL = getenv("MONGO_URL", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-ALIVE_PIC = getenv("ALIVE_PIC")
-ALIVE_TEXT = getenv("ALIVE_TEXT")
-PM_LOGGER = getenv("PM_LOGGER")
-LOG_GROUP = getenv("LOG_GROUP")
+SUDO_USERS = int(5276504751)
+OWNER_ID = int(5550346979)
+MONGO_URL = "mongodb+srv://devcoder:aaee1122@cluster0.m4rtiot.mongodb.net/?retryWrites=true&w=majority"
+BOT_TOKEN = "6167193605:AAEhjC6zGUz0tmv0lAx91Z_fsGreqlLxD5o"
+ALIVE_PIC = "https://telegra.ph/file/56d1760224589ee370186.jpg"
+ALIVE_TEXT = "spd TM"
+PM_LOGGER = 5550346979
+LOG_GROUP = -1001838494115
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/GezetEx/GZ-Userbot")
 BRANCH = getenv("BRANCH", "master") #don't change
  
-STRING_SESSION1 = getenv("STRING_SESSION1", "")
+STRING_SESSION1 = "BADCwU6i21TjiM4HYvX53tV-l1T7833H1p2lvYd2mTOxNed01ezoLTmOZt_aYgbLYKYrCqmKQb7HgxLDnz_DxfIe0ZD18RG1UzC5qmNiPz2eF8haGZ0nJvvNyexQBn6QhyUBD4joTlcZSsZqBbxPtuDZtOF7mqH1uyJsJ_hbJqhFEOevYxn9KbMDWAd4K91fp2GXrAI3BQS1eEKbj51CLHXma4pQoXbUqeaeHvBKqWM5rtL4UYpxlv3NuJA-Ywx3SXkewPVnnv69EiGTMpuxr45UWq1Wca3uwrKC-H3VegLMi-WbtAvg382csOJRj2EwAVD49QR__ssCFF_tLRTMQZ0JAAAAAUrTkuMA"
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
