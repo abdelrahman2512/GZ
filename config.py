@@ -3,7 +3,7 @@ from os import getenv
 API_ID = 28308842
 API_HASH = "f484785c143df7112294a5421afe775f"
 
-SUDO_USERS = int(5276504751)
+SUDO_USERS = [5276504751]
 OWNER_ID = int(5550346979)
 MONGO_URL = "mongodb+srv://devcoder:aaee1122@cluster0.m4rtiot.mongodb.net/?retryWrites=true&w=majority"
 BOT_TOKEN = "6167193605:AAEhjC6zGUz0tmv0lAx91Z_fsGreqlLxD5o"
